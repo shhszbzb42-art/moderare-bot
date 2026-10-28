@@ -1,0 +1,18 @@
+TOKEN=pune_tokenul_botului_aici
+# optional: ID canal unde se copiaza toate actiunile de moderare
+LOG_CHANNEL_ID=
+# optional: ID canal unde se posteaza automat statistica voice
+VOICE_CHANNEL_ID=
+# la cate minute se actualizeaza statistica voice
+VOICE_INTERVAL_MIN=30
+
+# --- ROLURI CARE AU ACCES LA COMENZI (ID-uri de roluri, separate prin virgula) ---
+# Administratorii au mereu acces.
+# ALLOWED_ROLE_IDS = roluri care pot folosi TOATE comenzile de moderare.
+# Lasa gol ca sa se foloseasca permisiunile normale de Discord.
+ALLOWED_ROLE_IDS=1564990959907766363,1564703819689107508
+# Optional, roluri doar pentru anumite comenzi (se adauga peste ALLOWED_ROLE_IDS):
+# BAN = ,ban si ,unban | KICK = ,kick | WARN = ,warn ,warns ,unwarn ,clearwarns
+BAN_ROLE_IDS=
+KICK_ROLE_IDS=
+WARN_ROLE_IDS=
